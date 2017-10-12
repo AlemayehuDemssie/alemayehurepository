@@ -1,0 +1,91 @@
+ /* Base Styles */
+ 
+ .navbar-default{
+	 background-color:red;
+	 border-color:#e7e7e7
+	 }
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	 
+	color: #000;
+}
+
+body {
+ 
+	background-color: #fff;
+
+}
+
+p {
+	padding: 10px;
+	margin: 0;
+}
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
+	 
+	background-color:gray;
+	 
+}
+
+ 
+#collapsable-nav li:hover{
+	
+	background-color:black;
+	
+	
+	
+}
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #000000;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #cccc;
+  color: #eeee;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+}
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.2em;
+}
