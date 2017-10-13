@@ -1,0 +1,269 @@
+/* Base Styles:default style to be loaded on any media size
+This will over the styling on the boostrap framework and other plugins used through out the whole document
+
+ */
+
+#myCarousel {/*This have to be adjusted for different medai sizes*/
+	margin-top:-40px;
+	margin-left:-10px;
+	margin-right:-10px;
+	margin-bottom:10px;
+	
+	
+}
+h1{
+	
+	font-size:40px;
+	font-family:dotum;
+	
+	
+}
+
+h2{
+	
+	font-size:30px;
+	font-family:dotum;
+	
+	
+}
+p{
+	font-family:century gothic;
+	font-size:18px;
+	
+	
+}
+#nav-list{
+	
+	margin-top:10px;
+	
+}
+#nav-list a{
+	color:#122dc5;
+	
+}
+
+h1{
+	
+ 
+	color:#fff;
+	
+}
+#nav-list a:hover{/*To give red color for the lists */
+		color:red;
+	
+}
+#nav-list a span{
+	font-size:1.8em;
+	
+}
+
+
+
+* {
+	box-sizing: border-box;
+}
+ 
+
+ul,li{
+	font-size:15px;
+	/*color:mroon;*/
+	list-style:none;
+	font-family:century gothic;
+	
+	 
+	
+}
+ 
+#phone{
+	
+	font-size:15px;
+	margin-right:10px;
+	
+}
+
+body {
+	
+background-color:#FF9800;
+}
+#header-nav{
+background-color:#09C;
+border-radius:0;
+border:0;	
+	
+	
+	
+}
+/*#alfooter li ,a{
+	color:#09C;
+	font-size:30px;
+	
+	
+}*/
+.img_list{
+	margin-top:20px;/*used to make the image lists abit apart from the top margin*/
+	 
+}
+#services li{
+	
+font-size:30px;	
+margin-left:110px;
+	
+}
+
+.my_canption{
+	
+	margin-bottom:20%;/*This must be adjusted in other media sizes*/
+	color:red;
+	 
+	
+}
+#sushi{
+	margin-bottom:10px;/*Have to be adjusted in other media sizes*/
+	
+	
+}
+.ala{
+	margin-bottom:10px;
+	
+}
+.main-slider{
+	/*THIS HAVE TO BE CODED IN ACCORDANCE WITH THE MEDIA SIZE*/
+	 
+	padding:0;
+	margin:0;
+	margin-right:10px;
+	
+	
+}
+.largers{
+	
+	margin-top:20px;
+	box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+  border-radius:5px;
+	
+}
+
+.container .jumbotron {/*styling the jumbotron*/
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+background-color:#09C;
+  border-top: 0;
+ 
+}
+section a{
+	 color:#F06;
+	
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+	
+}
+.img_list img{
+	border-radius:10px;
+	margin-bottom:10px;
+}
+
+p {
+	padding: 10px;
+	margin: 0;
+}
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+/*section {
+	border:	1px solid black;
+	background-color: #979a99;
+	width: 100%;
+	height:100%x;
+	 
+	color: black;
+	position: relative;
+	overflow:hidden;
+	margin-left:15px;
+}
+
+#chicken_section {
+	border: 1px solid black;
+	text-align: center;
+	width: 33%;
+	margin-left: 67%;
+	
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: rgba(226, 143, 170, 0.39);
+}
+
+ 
+#beef_section {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	 
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: rgba(212, 66, 89, 0.65);
+}
+
+#sushi_section {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	color: white;
+	padding: 5px;
+	background-color: rgba(243, 175, 57, 0.39);
+	}
+
+.row {
+	width: 100%;
+}
+*/
+ 
+ 
+ /*Media queries will goes here so that some inregularities will be fixed on different media size */
